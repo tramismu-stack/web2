@@ -1,0 +1,52 @@
+:root{
+    --primario:rgb(154, 226, 81);
+    --secundario:rgb(255, 255 ,255);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;    /*1rem= 16px*/
+    font-family:"Elms Sans", sans-serif;
+}
+
+.contenedor{
+    margin: 0 auto;
+    color: rgb(3, 255, 154);
+}
+
+.navfondo{
+    background-color: rgb(154, 226, 81);
+}
+
+.navfondo{
+    color: var(--secundario);
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+.titulo{
+    color: rgb(154, 226, 81);
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span{
+    color: rgb(214, 64, 64);
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2.6rem;
+    font-weight: 1;
+}
+
