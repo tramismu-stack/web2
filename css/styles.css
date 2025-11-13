@@ -14,13 +14,15 @@ body{
 
 .contenedor{
     margin: 0 auto;
-    color: rgb(3, 255, 154);
+    color: white;
 }
 
 .navfondo{
     background-color: rgb(154, 226, 81);
 }
-
+.ola{
+    color: white;
+}
 .navfondo{
     color: var(--secundario);
 }
