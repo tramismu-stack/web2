@@ -1,6 +1,8 @@
 :root{
     --primario:rgb(154, 226, 81);
-    --secundario:rgb(255, 255 ,255);
+    --terciario:rgb(100, 146, 0);
+    --secundario:rgb(227, 255, 71);
+    --white:white;
 }
 
 html{
@@ -12,19 +14,20 @@ body{
     font-family:"Elms Sans", sans-serif;
 }
 
-.contenedor{
-    margin: 0 auto;
-    color: white;
-}
-
 .navfondo{
     background-color: rgb(154, 226, 81);
+    display: flex;
+    justify-content: space-around;
 }
-.ola{
-    color: white;
-}
-.navfondo{
-    color: var(--secundario);
+
+.contenedor a{
+    margin: 75%;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
 }
 
 h1{
