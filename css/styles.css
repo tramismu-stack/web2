@@ -15,33 +15,6 @@ body{
     font-family:"Elms Sans", sans-serif;
 }
 
-@media(min-width:768px){
-    .navfondo{
-        flex-direction: row;
-    }
-}
-
-.navfondo{
-    background-color: rgb(154, 226, 81);
-    display: flex;
-    justify-content: space-around;
-}
-
-.navegacion a{
-    margin: auto;
-    color: var(--white);
-    font-size: 2rem;
-    font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    padding: var(--padding);
-}
-
-.navegacion a:hover{
-    color: var(--terciario);
-    background-color: var(--secundario);
-}
-
 h1{
     font-size: 2rem;
     font-weight: 400;
@@ -67,3 +40,45 @@ p{
     font-weight: 1;
 }
 
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--primario);
+}
+
+@media(min-width:768px){
+    .navegacion{
+        flex-direction: row;
+    }
+}
+
+.navegacion a{ 
+    margin: auto;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: var(--padding);
+}
+
+.navegacion a:hover{
+    color: var(--terciario);
+    background-color: var(--secundario);
+}
+/*Estilos para el hero*/
+.hero{
+    background-image: url('/img/hero-768x1024.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    position: relative;
+}
+.hcontenido{
+    background-color: black;
+    color:white;
+    position: absolute;
+    top: 0px;
+    left: ;
+}
